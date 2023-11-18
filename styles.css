@@ -5,7 +5,7 @@ h1, h2, h3, p, ol, ul {
 
 * { box-sizing:border-box; }
 
-img { max-width:100%; }
+img { max-width:20%; }
 
 /************* End CSS RESETS **************/
 
@@ -46,6 +46,14 @@ footer {
 	padding: 10px;
 }
 
+#projects ol li a{
+	color: #6b194b;
+}
+
+#projects ol{
+	color: #6b194b;
+}
+
 .alignleft {
 	float: left;
 	margin: 0 10px 5px 0;
@@ -56,11 +64,13 @@ footer {
 h1, h2, h3 {
 	font-family: 'Bitter', serif;
 	margin-bottom:.5em;
+	color: #342836;
 }
 
 h1 {
 	font-size:150%;
 	text-transform:uppercase;
+	
 }
 
 header h1 {
